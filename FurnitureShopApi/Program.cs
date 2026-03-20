@@ -54,7 +54,7 @@ namespace FurnitureShopApi
 
             app.UseHttpsRedirection();
 
-            // ВАЖНО: Authentication должно быть ДО Authorization
+            
             app.UseAuthentication();
             app.UseAuthorization();
 
